@@ -7,8 +7,8 @@ import (
 
 	"github.com/streadway/amqp"
 
-	"github.com/evrone/go-clean-template/pkg/logger"
-	rmqrpc "github.com/evrone/go-clean-template/pkg/rabbitmq/rmq_rpc"
+	"github.com/sanoyo/voyage/pkg/logger"
+	rmqrpc "github.com/sanoyo/voyage/pkg/rabbitmq/rmq_rpc"
 )
 
 const (

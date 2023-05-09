@@ -1,13 +1,18 @@
 package main
 
 import (
+	"fmt"
 	"log"
 
-	"github.com/evrone/go-clean-template/config"
-	"github.com/evrone/go-clean-template/internal/app"
+	"github.com/sanoyo/errors"
+
+	"github.com/sanoyo/voyage/config"
+	"github.com/sanoyo/voyage/internal/app"
 )
 
 func main() {
+	a := errors.New("Config error")
+	fmt.Println(a)
 	// Configuration
 	cfg, err := config.NewConfig()
 	if err != nil {
