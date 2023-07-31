@@ -13,7 +13,8 @@ require (
 	github.com/ilyakaznacheev/cleanenv v1.2.6
 	github.com/jackc/pgx/v4 v4.14.1
 	github.com/prometheus/client_golang v1.11.0
-	github.com/rs/zerolog v1.26.1
+	github.com/rs/zerolog v1.30.0
+	github.com/sanoyo/errors v0.0.0-20230509225146-56b5bb93a4d4
 	github.com/streadway/amqp v1.0.0
 	github.com/stretchr/testify v1.7.0
 	github.com/swaggo/files v0.0.0-20210815190702-a29dd2bc99b2
@@ -65,7 +66,7 @@ require (
 	github.com/lib/pq v1.10.2 // indirect
 	github.com/lunixbochs/vtclean v1.0.0 // indirect
 	github.com/mailru/easyjson v0.7.7 // indirect
-	github.com/mattn/go-colorable v0.1.10 // indirect
+	github.com/mattn/go-colorable v0.1.12 // indirect
 	github.com/mattn/go-isatty v0.0.14 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.2-0.20181231171920-c182affec369 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
@@ -74,7 +75,6 @@ require (
 	github.com/prometheus/client_model v0.2.0 // indirect
 	github.com/prometheus/common v0.26.0 // indirect
 	github.com/prometheus/procfs v0.6.0 // indirect
-	github.com/sanoyo/errors v0.0.0-20230509225146-56b5bb93a4d4 // indirect
 	github.com/tidwall/pretty v1.2.0 // indirect
 	github.com/ugorji/go/codec v1.2.6 // indirect
 	github.com/xo/terminfo v0.0.0-20210125001918-ca9a967f8778 // indirect
